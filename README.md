@@ -1,7 +1,7 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-Look at ADCB Bikeshare network in Abu Dhabi, UAE.
+Look at En la Bici bike network in Mendoza, Argentina.
 
 ## Process
 ### (your step 1)
