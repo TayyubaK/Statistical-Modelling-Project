@@ -26,6 +26,7 @@ Your tasks are as follows:
 
 
 Complete the **yelp_foursquare_EDA.ipynb** notebook to demonstrate how you executed the tasks above.
+PLEASE ALOS
 
 ## Part 3: Joining Data
 
