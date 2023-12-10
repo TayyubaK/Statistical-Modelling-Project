@@ -54,7 +54,7 @@ Step 5:
 ## Results
 * Data quality was better for Foursquare results in terms of quantity and quality
 * There was no relationship between bike numbers or their use and the restaurants in the area.
-* There was a relationship between distance from a bike station and restaurant rating (as restaurant rating increases, distance from bike station to restaurant decreases). This is not robust or all that meaningful as discussed in 'model_building.ipynb' notebook.
+* There was a relationship between distance from a bike station and restaurant rating (as restaurant rating increases, distance from bike station to restaurant decreases). This is not all that meaningful as discussed in 'model_building.ipynb' notebook.
 
 Overall, there is not a robust connection between the bike stations and restaurants in their vicinity.
 
