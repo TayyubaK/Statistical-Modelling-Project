@@ -12,7 +12,7 @@ Step 1:
     * enlabici-mend.csv 
 
 Step 2: 
-* Connected to Foursquare and Yelp APIs to retrieved information about restaurants in the vicinity of the bike stations from step 1.
+* Connected to Foursquare and Yelp APIs to retrieve information about restaurants in the vicinity of the bike stations from step 1.
 * Parsed json response and created dataframes. 
 * Compared the quality of the data and found top 10 restaurants according to each API result.
 * Notebook: yelp_foursquare_EDA.ipynb
@@ -21,7 +21,7 @@ Step 2:
     * yelp_df_orig.csv
 
 Step 3: 
-* Cleaned and transformed data from steps 1 and 2 (evaluated ranges, fixed nulls etc.)
+* Cleaned and transformed data from steps 1 and 2 (evaluated data, fixed nulls etc.)
 * Notebook: EDA_part1_part2.ipynb
 * csv files:
     * bikes_df_eda.csv
@@ -31,6 +31,7 @@ Step 3:
 Step 4: 
 * Combined cleaned bike statation data with Foursquare and Yelp data. 
 * Created visualizations (pairplots and correlation heatmaps) to gauge correlation relationships.
+* Created a SQLite database to store the data
 * Notebook: joining_data.ipynb
 * Images:
     * pairplotfs.png
@@ -52,8 +53,8 @@ Step 5:
 
 ## Results
 * Data quality was better for Foursquare results in terms of quantity and quality
-* There was no relationship between bike numbers or use and the POIs.
-* There was a relationship between distance from a bike station and restaurant rating (as restaurant rating increases, distance from bike station to restauratn decreases). This is not robust or all that meaningful as discussed in 'model_building.ipynb' notebook.
+* There was no relationship between bike numbers or their use and the restaurants in the area.
+* There was a relationship between distance from a bike station and restaurant rating (as restaurant rating increases, distance from bike station to restaurant decreases). This is not robust or all that meaningful as discussed in 'model_building.ipynb' notebook.
 
 Overall, there is not a robust connection between the bike stations and restaurants in their vicinity.
 
